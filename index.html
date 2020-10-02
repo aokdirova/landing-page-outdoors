@@ -17,7 +17,37 @@
 
     <title>Natours | Exciting tours for adventurous people</title>
   </head>
+
   <body>
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="nav-toggle" />
+      <label for="nav-toggle" class="navigation__button">
+        <span class="navigation__icon"> &nbsp; </span>
+      </label>
+
+      <div class="navigation__background">&nbsp;</div>
+
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">About Natours </a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">Your benefits</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">Popular tours</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">Stories</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">Book now</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
     <header class="header">
       <div class="header__logo-box">
         <img src="./img/logo-white.png" alt="logo" class="header__logo" />
@@ -147,19 +177,15 @@
         </div>
       </section>
 
-      <section class="section-tours">
+      <section class="section-tours" id="section-tours">
         <div class="u-center-text u-margin-bottom-big">
-          <h2 class="heading-secondary">
-            Most popular tours
-          </h2>
+          <h2 class="heading-secondary">Most popular tours</h2>
         </div>
         <div class="row">
           <div class="col-1-of-3">
             <div class="card">
               <div class="card__side card__side--front">
-                <div class="card__picture card__picture--1">
-                  &nbsp;
-                </div>
+                <div class="card__picture card__picture--1">&nbsp;</div>
                 <h4 class="card__heading">
                   <span class="card__heading--span card__heading--span--1">
                     The Sea Explorer
@@ -178,14 +204,10 @@
               <div class="card__side card__side--back card__side--back--1">
                 <div class="card__cta">
                   <div class="card__price-box">
-                    <p class="card__price-only">
-                      only
-                    </p>
-                    <p class="card__price-value">
-                      $297
-                    </p>
+                    <p class="card__price-only">only</p>
+                    <p class="card__price-value">$297</p>
                   </div>
-                  <a href="#" class="btn btn--white">book now!</a>
+                  <a href="#popup" class="btn btn--white">book now!</a>
                 </div>
               </div>
             </div>
@@ -194,9 +216,7 @@
           <div class="col-1-of-3">
             <div class="card">
               <div class="card__side card__side--front">
-                <div class="card__picture card__picture--2">
-                  &nbsp;
-                </div>
+                <div class="card__picture card__picture--2">&nbsp;</div>
                 <h4 class="card__heading">
                   <span class="card__heading--span card__heading--span--2">
                     The Forest Hiker
@@ -215,14 +235,10 @@
               <div class="card__side card__side--back card__side--back--2">
                 <div class="card__cta">
                   <div class="card__price-box">
-                    <p class="card__price-only">
-                      only
-                    </p>
-                    <p class="card__price-value">
-                      $497
-                    </p>
+                    <p class="card__price-only">only</p>
+                    <p class="card__price-value">$497</p>
                   </div>
-                  <a href="#" class="btn btn--white">book now!</a>
+                  <a href="#popup" class="btn btn--white">book now!</a>
                 </div>
               </div>
             </div>
@@ -230,9 +246,7 @@
           <div class="col-1-of-3">
             <div class="card">
               <div class="card__side card__side--front">
-                <div class="card__picture card__picture--3">
-                  &nbsp;
-                </div>
+                <div class="card__picture card__picture--3">&nbsp;</div>
                 <h4 class="card__heading">
                   <span class="card__heading--span card__heading--span--3">
                     The Snow Adventurer
@@ -251,14 +265,10 @@
               <div class="card__side card__side--back card__side--back--3">
                 <div class="card__cta">
                   <div class="card__price-box">
-                    <p class="card__price-only">
-                      only
-                    </p>
-                    <p class="card__price-value">
-                      $897
-                    </p>
+                    <p class="card__price-only">only</p>
+                    <p class="card__price-value">$897</p>
                   </div>
-                  <a href="#" class="btn btn--white">book now!</a>
+                  <a href="#popup" class="btn btn--white">book now!</a>
                 </div>
               </div>
             </div>
@@ -279,9 +289,7 @@
           </video>
         </div>
         <div class="u-center-text u-margin-bottom-big">
-          <h2 class="heading-secondary">
-            We make people genuinely happy
-          </h2>
+          <h2 class="heading-secondary">We make people genuinely happy</h2>
         </div>
 
         <div class="row">
@@ -292,9 +300,7 @@
                 alt="person on a tour"
                 class="story__img"
               />
-              <figcaption class="story__caption">
-                Mary Smith
-              </figcaption>
+              <figcaption class="story__caption">Mary Smith</figcaption>
             </figure>
 
             <div class="story__text">
@@ -320,9 +326,7 @@
                 alt="person on a tour"
                 class="story__img"
               />
-              <figcaption class="story__caption">
-                Jack Wilson
-              </figcaption>
+              <figcaption class="story__caption">Jack Wilson</figcaption>
             </figure>
 
             <div class="story__text">
@@ -344,15 +348,14 @@
           <a href="#" class="btn-text">Read all stories &rarr;</a>
         </div>
       </section>
+
       <section class="section-book">
         <div class="row">
           <div class="book">
             <div class="book__form">
               <form action="#" class="form">
                 <div class="u-margin-bottom-medium">
-                  <h2 class="heading-secondary">
-                    Start booking now
-                  </h2>
+                  <h2 class="heading-secondary">Start booking now</h2>
                 </div>
 
                 <div class="form__group">
@@ -413,6 +416,69 @@
         </div>
       </section>
     </main>
+
+    <footer class="footer">
+      <div class="footer__logo-box">
+        <img src="img/logo-green-2x.png" alt="Full logo" class="footer__logo" />
+      </div>
+      <div class="row">
+        <div class="col-1-of-2">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#" class="footer__link">Company</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Contact us</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Careers</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Privacy policy</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Terms</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-1-of-2">
+          <p class="footer__copyright">
+            Built by <a href="#" class="footer__link">Aygul Okdirova</a> for
+            presentation purposes
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="popup" id="popup">
+      <div class="popup__content">
+        <div class="popup__left">
+          <img src="/img/nat-8.jpg" alt="Tour photo" class="popup__img" />
+          <img src="/img/nat-9.jpg" alt="Tour photo" class="popup__img" />
+        </div>
+        <div class="popup__right">
+          <a href="#section-tours" class="popup__close">&times;</a>
+          <h2 class="heading-secondary u-margin-bottom-small">
+            Start booking now
+          </h2>
+          <h3 class="heading-tertiary u-margin-bottom-small">
+            Important &ndash; Please read these terms before booking
+          </h3>
+          <p class="popup__text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt,
+            beatae? Voluptatum pariatur totam iste odio, aliquam deleniti
+            ducimus sed tempore veniam voluptate nobis quae, corporis culpa
+            cupiditate architecto quis quasi, natus qui veritatis eaque! Numquam
+            dolorum magni tenetur voluptates eligendi minus provident ab
+            temporibus hic quia nam dolores, molestias fuga consequatur repellat
+            sint aliquid repellendus, quidem velit perferendis saepe harum.
+          </p>
+          <a href="#" class="btn btn--green"> Book now</a>
+        </div>
+      </div>
+    </div>
     <!--
     <section class="grid-test">
     
